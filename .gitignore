@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model files (too large for GitHub — use Git LFS or releases)
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+*.onnx
+models/*.h5
+models/*.json
+
+# Dataset (do not commit raw images)
+data/raw/
+images/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+runs/
+
+# Misc
+*.csv
+!sample_results.csv
