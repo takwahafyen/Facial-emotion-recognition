@@ -77,7 +77,7 @@ facial-emotion-recognition/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/facial-emotion-recognition.git
+git clone https://github.com/takwahafyen/facial-emotion-recognition.git
 cd facial-emotion-recognition
 ```
 
